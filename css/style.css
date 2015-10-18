@@ -19,7 +19,6 @@ a{
 div {
   height:10; 
   width:70%;
-  display: table;
   position: absolute;
   bottom: 20px;
   left: 50%;
@@ -34,7 +33,6 @@ div {
 
 
 p {
-    display: table-cell;
     vertical-align: middle;
     text-align:center;
 }
@@ -88,7 +86,6 @@ img {
 div {
   height:10; 
   width:70%;
-  display: table;
   position: absolute;
   bottom: 20px;
   left: 50%;
@@ -103,7 +100,6 @@ div {
 
 
 p {
-    display: table-cell;
     vertical-align: middle;
     text-align:center;
 }
