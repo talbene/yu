@@ -1,12 +1,17 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800|Roboto+Slab:400,100,300,700);
 
+
+html, body {
+  overflow: hidden;
+}
+
 /**  Basic Page CSS **/
 body {
   background: url("../images/stock-photo-skyline-of-philadelphia-downtown-pennsylvania-usa-226451653.jpg") center center no-repeat fixed;
   background-size:  cover;
   margin:0;
  font-size: 1.5em;
-  overflow: hidden;
+  position: relative;
 
  }
 
@@ -60,7 +65,7 @@ div {
   font-size: 0.7em;
 }
 img {
-  width: 45%;
+  width: 50%;
 }
 
 }
