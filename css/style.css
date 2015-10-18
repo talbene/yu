@@ -21,8 +21,17 @@ a{
 
 }
 
-
-div {
+.outer
+        {
+            width: 80%;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 0px;
+        }
+        
+.inner {
   height:10; 
   width:70%;
   display: table;
@@ -58,7 +67,7 @@ img {
 
 @media only screen and (min-width : 300px) and (max-width : 480px) {
 /*--- Mobile portrait ---*/
-div {
+.inner {
   height:10%; 
   width:60%;
   font-size: 0.7em;
@@ -73,7 +82,7 @@ img {
 
 @media only screen and (min-width : 480px) and (max-width : 595px) {
 /*--- Mobile landscape ---*/
-div {
+.inner {
   height:10%; 
   width:60%;
   font-size: 0.8em;
@@ -90,7 +99,7 @@ img {
 }
 @media only screen and (min-width : 595px) and (max-width : 690px) {
 /*--- Small tablet portrait ---*/
-div {
+.inner {
   height:10%; 
   width:70%;
   font-size: 1.2em;
@@ -100,42 +109,12 @@ img {
   
   width: 35%;
 }
-div {
-  height:10; 
-  width:70%;
-  display: table;
-  position: fixed;
-  bottom: 20px;
-  background-color: #358fcd;
-  border: 5px solid #4DB8FF;
-  font-family: "Roboto Slab", sans-serif;
-  text-align: center;
-  font-size: 2em;
-  padding: 10px;
-}
 
-
-p {
-    display: table-cell;
-    vertical-align: middle;
-    text-align:center;
-}
-
-
-
-img {
-  display: block;
-  position: fixed;
-  top:10px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 30%;
-}
 }
 @media only screen and (min-width : 690px) and (max-width : 800px) {
 /*--- Tablet portrait ---*/
 
-div {
+.inner {
   height:10%; 
   width:70%;
   font-size: 1.4em;
@@ -150,7 +129,7 @@ img {
 }
 @media only screen and (min-width : 800px) and (max-width : 1024px) {
 /*--- Small tablet landscape ---*/
-div {
+.inner {
   height:10%; 
   width:70%;
   font-size: 1.6em;
@@ -163,7 +142,7 @@ img {
 }
 @media only screen and (min-width : 1024px) and (max-width : 1224px) {
 /*--- Tablet landscape --- */
-div {
+.inner {
   height:10%; 
   width:70%;
   font-size: 1.5em;
