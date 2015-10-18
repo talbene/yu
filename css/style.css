@@ -46,7 +46,7 @@ a {
 
 img {
   display: block;
-  position: fixed;
+  position: f;
   top:10px;
   left: 35%;
   width: 30%;
@@ -77,13 +77,13 @@ img {
   height:10%; 
   width: 50%;
   font-size: 0.7em;
-  bottom: 40px;
+  bottom: 22px;
   left: 25%;
 
 }
 
 img {
-  top:30px;
+  top:22px;
   width: 35%;
   left: 32.5%;
 
