@@ -77,18 +77,16 @@ img {
   height:10%; 
   width: 50%;
   font-size: 0.7em;
-  bottom: 22px;
-  left: 25%;
+   left: 25%;
 
 }
 
 img {
-  top:22px;
+  top: 20px;
   width: 35%;
   left: 32.5%;
 
 }
-
 
 }
 @media only screen and (min-width : 595px) and (max-width : 690px) {
