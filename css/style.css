@@ -90,18 +90,31 @@ img {
 }
 @media only screen and (min-width : 595px) and (max-width : 690px) {
 /*--- Small tablet portrait ---*/
-div {
-  height:10%; 
-  width:70%;
-  font-size: 1.2em;
-}
+
 
 img {
   
   width: 35%;
 }
-
+div {
+  height:10; 
+  width:70%;
+  display: table;
+  position: fixed;
+  bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #358fcd;
+  border: 5px solid #4DB8FF;
+  font-family: "Roboto Slab", sans-serif;
+  text-align: center;
+  font-size: 1.2em;
+  padding: 10px;
+  
 }
+
+
+
 @media only screen and (min-width : 690px) and (max-width : 800px) {
 /*--- Tablet portrait ---*/
 
