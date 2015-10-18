@@ -59,7 +59,7 @@ img {
   width: 60%;
   left: 20%;
   font-size: 0.6em;
-  bottom: 35px;
+  bottom: 30px;
 }
 
 img {
@@ -71,20 +71,22 @@ img {
 }
 
 
-@media only screen and (min-width : 480px) and (max-width : 595px) {
+@media only screen and (min-width : 481px) and (max-width : 595px) {
 /*--- Mobile landscape ---*/
 .inner {
   height:10%; 
   width: 50%;
   font-size: 0.7em;
-   left: 25%;
+  left: 25%;
+  bottom: 25px;
+
 
 }
 
 img {
   top: 20px;
-  width: 35%;
-  left: 32.5%;
+  width: 30%;
+  left: 35%;
 
 }
 
