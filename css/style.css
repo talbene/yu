@@ -1,19 +1,12 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800|Roboto+Slab:400,100,300,700);
 
-
-html, body {
-  overflow: hidden;
-}
-
 /**  Basic Page CSS **/
 body {
   background: url("../images/stock-photo-skyline-of-philadelphia-downtown-pennsylvania-usa-226451653.jpg") center center no-repeat fixed;
   background-size:  cover;
   margin:0;
- font-size: 1.5em;
-position: relative;
-
- }
+  font-size: 1.5em;
+}
 
 a{
       text-decoration: none;
@@ -27,7 +20,7 @@ div {
   height:10; 
   width:70%;
   display: table;
-  position: fixed;
+  position: absolute;
   left: 50%;
   bottom: 20px;
   transform: translateX(-50%);
@@ -50,7 +43,7 @@ p {
 
 img {
   display: block;
-  position: fixed;
+  position: absolute;
   top:10px;
   left: 50%;
   transform: translateX(-50%);
@@ -58,18 +51,14 @@ img {
 }
 
 @media only screen and (min-width : 300px) and (max-width : 480px) {
-
-  html, body {
-  overflow: hidden;
-}
 /*--- Mobile portrait ---*/
 div {
   height:10%; 
   width:60%;
-  font-size: 0.8em;
+  font-size: 0.7em;
 }
 img {
-  width: 60%;
+  width: 40%;
 }
 
 }
@@ -85,8 +74,7 @@ div {
 }
 
 img {
-   top:20px;
-
+ 
   width: 35%;
 }
 
