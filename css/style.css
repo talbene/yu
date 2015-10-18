@@ -6,23 +6,27 @@
 body, html {
     overflow: hidden;
 }
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
 body {
   background: url("../images/stock-photo-skyline-of-philadelphia-downtown-pennsylvania-usa-226451653.jpg") center center no-repeat fixed;
   background-size:  cover;
   font-size: 1.5em;
- text-align: center;
-      margin:auto;
 }
 
 a{
-      text-decoration: none;
-      color: white;
-
-
+  text-decoration: none;
+  color: white;
 }
 
-
-        
+      
 .inner {
   height:10%; 
   width:70%;
@@ -35,13 +39,9 @@ a{
   text-align: center;
   font-size: 2em;
   padding: 10px;
+  display: table;
 }
 
-
-p {
-    vertical-align: middle;
-    text-align:center;
-}
 
 
 img {
@@ -56,11 +56,14 @@ img {
 /*--- Mobile portrait ---*/
 .inner {
   height:10%; 
-  width:60%;
+  width: 65%;
+  left:17.5%;
   font-size: 0.7em;
 }
+
 img {
   top: 23px;
+  left: 25%;
   width: 50%;
 }
 
@@ -73,13 +76,16 @@ img {
   height:10%; 
   width:60%;
   font-size: 0.8em;
-  padding: 8px;
   bottom: 40px;
+  left: 20%;
+
 }
 
 img {
- top:30px;
+  top:30px;
   width: 35%;
+  left: 32.5%;
+
 }
 
 
@@ -90,11 +96,15 @@ img {
   height:10%; 
   width:70%;
   font-size: 1.2em;
+  left: 15%;
+
 }
 
 img {
-  
+  top:30px;
   width: 35%;
+  left: 32.5%;
+
 }
 
 }
@@ -105,10 +115,14 @@ img {
   height:10%; 
   width:70%;
   font-size: 1.4em;
+      left: 15%;
+
 }
 
 img {
   width: 40%;
+    left: 30%;
+
 }
 
 
@@ -120,10 +134,14 @@ img {
   height:10%; 
   width:70%;
   font-size: 1.6em;
+  left: 15%;
+
 }
 
 img {
   width: 35%;
+  left: 32.5%;
+
 }
 
 }
@@ -133,10 +151,14 @@ img {
   height:10%; 
   width:70%;
   font-size: 1.5em;
+  left: 15%;
+
 }
 
 img {
   width: 35%;
+  left: 32.5%;
+
 }
 
 }
