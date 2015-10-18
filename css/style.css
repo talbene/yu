@@ -5,7 +5,8 @@ body {
   background: url("../images/stock-photo-skyline-of-philadelphia-downtown-pennsylvania-usa-226451653.jpg") center center no-repeat fixed;
   background-size:  cover;
   margin:0;
-  font-size: 1.5em;
+ font-size: 1.5em;
+ position: fixed;
 }
 
 a{
@@ -20,7 +21,7 @@ div {
   height:10; 
   width:70%;
   display: table;
-  position: absolute;
+  position: fixed;
   left: 50%;
   bottom: 20px;
   transform: translateX(-50%);
@@ -43,7 +44,7 @@ p {
 
 img {
   display: block;
-  position: absolute;
+  position: fixed;
   top:10px;
   left: 50%;
   transform: translateX(-50%);
@@ -54,8 +55,8 @@ img {
 /*--- Mobile portrait ---*/
 div {
   height:10%; 
-  width:60%;
-  font-size: 0.7em;
+  width:50%;
+  font-size: 0.6em;
 }
 img {
   width: 40%;
