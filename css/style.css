@@ -46,7 +46,7 @@ a {
 
 img {
   display: block;
-  position: f;
+  position: fixed;
   top:10px;
   left: 35%;
   width: 30%;
