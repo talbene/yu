@@ -11,7 +11,7 @@ body {
   background-size:  cover;
   margin:0;
   font-size: 1.5em;
-  position: fixed;
+  position: relative;
 }
 
 a{
