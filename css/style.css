@@ -6,8 +6,7 @@ body {
   background-size:  cover;
   margin:0;
  font-size: 1.5em;
- position: fixed;
-}
+ }
 
 a{
       text-decoration: none;
@@ -55,11 +54,11 @@ img {
 /*--- Mobile portrait ---*/
 div {
   height:10%; 
-  width:50%;
-  font-size: 0.6em;
+  width:60%;
+  font-size: 0.7em;
 }
 img {
-  width: 40%;
+  width: 45%;
 }
 
 }
