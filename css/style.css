@@ -2,25 +2,31 @@
 
 /**  Basic Page CSS **/
 body {
-  background: url("../images/stock-photo-downtown-skyline-of-philadelphia-pennsylvania-at-twilight-180201065.jpg") center center no-repeat fixed;
+  background: url("../images/stock-photo-skyline-of-philadelphia-downtown-pennsylvania-usa-226451653.jpg") center center no-repeat fixed;
   background-size:  cover;
   margin:0;
   font-size: 1.5em;
 }
 
+a{
+      text-decoration: none;
+      color: white;
+
+
+}
+
 
 div {
-  height:10%; 
+  height:10; 
   width:70%;
   display: table;
   position: absolute;
-  top: 80%;
   left: 50%;
-  transform: translate(-50%, -80%);
+  bottom: 20px;
+  transform: translateX(-50%);
   background-color: #358fcd;
   border: 5px solid #4DB8FF;
   font-family: "Roboto Slab", sans-serif;
-  color: white;
   text-align: center;
   font-size: 2em;
   padding: 10px;
@@ -38,10 +44,10 @@ p {
 img {
   display: block;
   position: absolute;
-  top:40%;
+  top:10px;
   left: 50%;
-  transform: translate(-50%, -40%);
-  width: 25%;
+  transform: translateX(-50%);
+  width: 30%;
 }
 
 @media only screen and (min-width : 300px) and (max-width : 480px) {
@@ -49,18 +55,10 @@ img {
 div {
   height:10%; 
   width:60%;
-  font-size: 0.9em;
-  padding: 10px;
-  top: 80%;
-  left: 50%;
-  transform: translate(-50%, -80%);
+  font-size: 0.7em;
 }
-
 img {
-  top:20%;
-  left: 50%;
-  transform: translate(-50%, -40%);
-  width: 55%;
+  width: 40%;
 }
 
 }
@@ -71,15 +69,13 @@ img {
 div {
   height:10%; 
   width:60%;
-  font-size: 0.8em;
+  font-size: 0.9em;
   padding: 8px;
 }
 
 img {
-  top:30%;
-  left: 50%;
-  transform: translate(-50%, -40%);
-  width: 38%;
+ 
+  width: 35%;
 }
 
 
@@ -90,14 +86,11 @@ div {
   height:10%; 
   width:70%;
   font-size: 1.2em;
-  padding: 10px;
 }
 
 img {
-  top:20%;
-  left: 50%;
-  transform: translate(-50%, -20%);
-  width: 40%;
+  
+  width: 35%;
 }
 
 }
@@ -107,14 +100,10 @@ img {
 div {
   height:10%; 
   width:70%;
-  font-size: 1.3em;
-  padding: 10px;
+  font-size: 1.4em;
 }
 
 img {
-  top:20%;
-  left: 50%;
-  transform: translate(-50%, -40%);
   width: 40%;
 }
 
@@ -126,14 +115,10 @@ img {
 div {
   height:10%; 
   width:70%;
-  font-size: 1.5em;
-  padding: 10px;
+  font-size: 1.6em;
 }
 
 img {
-  top:20%;
-  left: 50%;
-  transform: translate(-50%, -40%);
   width: 35%;
 }
 
@@ -144,15 +129,10 @@ div {
   height:10%; 
   width:70%;
   font-size: 1.5em;
-  padding: 10px;
 }
 
 img {
-  top:20%;
-  left: 50%;
-  transform: translate(-50%, -40%);
   width: 35%;
 }
-
 
 }
