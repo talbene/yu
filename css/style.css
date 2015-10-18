@@ -52,6 +52,24 @@ img {
   width: 30%;
 }
 
+@media only screen and (min-width : 481px) and (max-width : 595px) {
+/*--- Mobile landscape ---*/
+.inner {
+  height:10%; 
+  width: 50%;
+  font-size: 0.7em;
+  left: 25%;
+ 
+
+}
+
+img {
+  top: 20px;
+  width: 30%;
+  left: 35%;
+
+}
+
 @media only screen and (min-width : 300px) and (max-width : 480px) {
 /*--- Mobile portrait ---*/
 .inner {
@@ -71,23 +89,7 @@ img {
 }
 
 
-@media only screen and (min-width : 481px) and (max-width : 595px) {
-/*--- Mobile landscape ---*/
-.inner {
-  height:10%; 
-  width: 50%;
-  font-size: 0.7em;
-  left: 25%;
- 
 
-}
-
-img {
-  top: 20px;
-  width: 30%;
-  left: 35%;
-
-}
 
 }
 @media only screen and (min-width : 595px) and (max-width : 690px) {
