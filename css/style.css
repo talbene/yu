@@ -21,8 +21,8 @@ div {
   width:70%;
   display: table;
   position: absolute;
-  left: 50%;
   bottom: 20px;
+  left: 50%;
   transform: translateX(-50%);
   background-color: #358fcd;
   border: 5px solid #4DB8FF;
@@ -58,7 +58,7 @@ div {
   font-size: 0.7em;
 }
 img {
-  width: 40%;
+  width: 50%;
 }
 
 }
@@ -69,12 +69,14 @@ img {
 div {
   height:10%; 
   width:60%;
-  font-size: 0.9em;
+  font-size: 0.7em;
   padding: 8px;
+  bottom:30px;
 }
 
 img {
- 
+   top: 18px;
+
   width: 35%;
 }
 
@@ -82,17 +84,40 @@ img {
 }
 @media only screen and (min-width : 595px) and (max-width : 690px) {
 /*--- Small tablet portrait ---*/
+
 div {
-  height:10%; 
+  height:10; 
   width:70%;
+  display: table;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #358fcd;
+  border: 5px solid #4DB8FF;
+  font-family: "Roboto Slab", sans-serif;
+  text-align: center;
   font-size: 1.2em;
+  padding: 10px;
 }
+
+
+p {
+    display: table-cell;
+    vertical-align: middle;
+    text-align:center;
+}
+
+
 
 img {
-  
+  display: block;
+  position: absolute;
+  top:10px;
+  left: 50%;
+  transform: translateX(-50%);
   width: 35%;
 }
-
 }
 @media only screen and (min-width : 690px) and (max-width : 800px) {
 /*--- Tablet portrait ---*/
