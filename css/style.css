@@ -71,12 +71,12 @@ img {
 div {
   height:10%; 
   width:60%;
-  font-size: 0.85em;
+  font-size: 0.8em;
   padding: 8px;
 }
 
 img {
-  top:25%;
+  top:30%;
   left: 50%;
   transform: translate(-50%, -40%);
   width: 38%;
