@@ -11,6 +11,7 @@ body {
   background-size:  cover;
   margin:0;
   font-size: 1.5em;
+  position: fixed;
 }
 
 a{
@@ -25,7 +26,7 @@ div {
   height:10; 
   width:70%;
   display: table;
-  position: absolute;
+  position: fixed;
   bottom: 20px;
   left: 50%;
   transform: translateX(-50%);
@@ -48,7 +49,7 @@ p {
 
 img {
   display: block;
-  position: absolute;
+  position: fixed;
   top:10px;
   left: 50%;
   transform: translateX(-50%);
