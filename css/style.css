@@ -51,6 +51,9 @@ div {
   width:60%;
   font-size: 0.9em;
   padding: 10px;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -70%);
 }
 
 img {
@@ -68,15 +71,15 @@ img {
 div {
   height:10%; 
   width:60%;
-  font-size: 0.9em;
-  padding: 10px;
+  font-size: 0.85em;
+  padding: 8px;
 }
 
 img {
-  top:20%;
+  top:25%;
   left: 50%;
   transform: translate(-50%, -40%);
-  width: 40%;
+  width: 38%;
 }
 
 
