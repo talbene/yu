@@ -20,7 +20,7 @@ body {
   overflow: hidden;
 }
 
-a{
+a {
   text-decoration: none;
   color: white;
 }
@@ -55,13 +55,14 @@ img {
 /*--- Mobile portrait ---*/
 .inner {
   height: 10%; 
-  width: 65%;
-  left:17.5%;
-  font-size: 0.6em;
+  width: 50%;
+  left:25%;
+  font-size: 0.62em;
+  bottom: 35px;
 }
 
 img {
-  top: 23px;
+  top: 28px;
   left: 25%;
   width: 50%;
 }
@@ -73,10 +74,10 @@ img {
 /*--- Mobile landscape ---*/
 .inner {
   height:10%; 
-  width:60%;
-  font-size: 0.8em;
+  width: 50%;
+  font-size: 0.7em;
   bottom: 40px;
-  left: 20%;
+  left: 25%;
 
 }
 
