@@ -15,7 +15,7 @@ html {
 
 
 body {
-  background: url("../images/2.jpg") center center no-repeat fixed;
+  background: url("../images/2.jpg") bottom center no-repeat fixed ;
   background-size:  cover;
   font-size: 1.5em;
   position: static;
