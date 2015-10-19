@@ -60,7 +60,7 @@ img {
 .inner {
   height: 10%; 
   width: 65%;
-  left: 20%;
+  left: 17.5%;
   font-size: 0.6em;
   bottom: 30px;
 }
@@ -81,7 +81,9 @@ img {
   width: 50%;
   font-size: 0.7em;
   left: 25%;
-  bottom: 40px;
+  bottom: 50px;
+  padding: 8px;
+
 
  
 
