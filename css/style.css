@@ -14,12 +14,11 @@ html {
 }
 
 
-body {
+html {
   background: url("../images/stock-photo-skyline-of-philadelphia-downtown-pennsylvania-usa-226451653.jpg") center center no-repeat fixed;
   background-size:  cover;
   font-size: 1.5em;
   position: static;
-  overflow: hidden;
 
 }
 
