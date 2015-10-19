@@ -59,9 +59,9 @@ img {
 /*--- Mobile portrait ---*/
 .inner {
   height: 10%; 
-  width: 65%;
-  left: 17.5%;
-  font-size: 0.6em;
+  width: 60%;
+  left: 20%;
+  font-size: 0.55em;
   bottom: 30px;
 }
 
