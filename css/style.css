@@ -61,7 +61,7 @@ img {
   height: 10%; 
   width: 60%;
   left: 20%;
-  font-size: 0.7em;
+  font-size: 0.6em;
   bottom: 30px;
 }
 
@@ -78,9 +78,9 @@ img {
 /*--- Mobile landscape ---*/
 .inner {
   height:10%; 
-  width: 50%;
+  width: 60%;
   font-size: 0.7em;
-  left: 25%;
+  left: 20%;
   bottom: 50px;
   padding: 8px;
 
