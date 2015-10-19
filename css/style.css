@@ -15,7 +15,7 @@ html {
 
 
 body {
-  background: url("../images/stock-photo-skyline-of-philadelphia-downtown-pennsylvania-usa-226451653.jpg") center center no-repeat fixed;
+  background: url("../images/2.jpg") center center no-repeat fixed;
   background-size:  cover;
   font-size: 1.5em;
   position: static;
@@ -61,7 +61,7 @@ img {
   height: 10%; 
   width: 60%;
   left: 20%;
-  font-size: 0.55em;
+  font-size: 0.7em;
   bottom: 30px;
 }
 
