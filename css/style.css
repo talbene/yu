@@ -66,7 +66,7 @@ img {
 }
 
 img {
-  top: 28px;
+  top: 20px;
   left: 25%;
   width: 50%;
 }
@@ -81,12 +81,14 @@ img {
   width: 50%;
   font-size: 0.7em;
   left: 25%;
+  bottom: 40px;
+
  
 
 }
 
 img {
-  top: 20px;
+  top: 40px;
   width: 30%;
   left: 35%;
 
@@ -104,7 +106,7 @@ img {
 }
 
 img {
-  top:30px;
+  top:20px;
   width: 35%;
   left: 32.5%;
 
