@@ -15,7 +15,7 @@ html {
 
 
 body {
-  background: url("../images/2.jpg") bottom center no-repeat fixed ;
+  background: url("../images/shutterstock_180201077_low.jpg") bottom center no-repeat fixed ;
   background-size:  cover;
   font-size: 1.5em;
   position: static;
@@ -59,9 +59,9 @@ img {
 /*--- Mobile portrait ---*/
 .inner {
   height: 10%; 
-  width: 75%;
-  left: 12.5%;
-  font-size: 0.7em;
+  width: 80%;
+  left: 10%;
+  font-size: 0.75em;
   bottom: 30px;
     padding: 8px;
 
